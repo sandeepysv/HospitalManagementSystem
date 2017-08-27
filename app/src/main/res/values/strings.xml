@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hospital Management System</string>
+    <string name="checkbox_label">Custom Checkbox</string>
+    <string name="radiobutton1_label">Custom Radio Button 1</string>
+    <string name="radiobutton2_label">Custom Radio Button 2</string>
+    <string name="radiobutton3_label">Custom Radio Button 3</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

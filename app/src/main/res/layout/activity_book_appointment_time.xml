@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_book_appointment_time"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sandeepysv.hospitalmanagementsystem.BookAppointmentTime">
+
+    <ImageView
+        android:id="@+id/usrboard_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/userboard"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/apt_time"
+        android:text="Set Appointment Time :"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_below="@id/usrboard_logo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/usr_set"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:magic_button_size="93dp"
+        app:button_icon="@drawable/time"
+        app:button_icon_width="70dp"
+        app:button_icon_height="70dp"
+        app:hide_text="     Set Time and Date"
+        app:hide_text_size="6dp"
+        app:hide_text_color="@android:color/black"
+        app:icon_button_color="@android:color/transparent"
+        app:expandable_area_color="#efc84a"
+        android:layout_marginTop="113dp"
+        android:layout_below="@+id/apt_time"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
